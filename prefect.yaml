@@ -17,7 +17,7 @@ push: null
 pull:
   - prefect.deployments.steps.git_clone:
       id: clone-step
-      repository: https://github.com/CBIIT/Prefect_demo.git
+      repository: https://github.com/akmukherjee/Prefect_demo-akm.git
       branch: file_copy_demo
   - prefect.deployments.steps.pip_install_requirements:
       requirements_file: requirements.txt
@@ -43,7 +43,7 @@ deployments:
     pull:
       - prefect.deployments.steps.git_clone:
           id: clone-step
-          repository: https://github.com/CBIIT/Prefect_demo.git
+          repository: https://github.com/akmukherjee/Prefect_demo-akm.git
           branch: file_copy_demo
       - prefect.deployments.steps.pip_install_requirements:
           requirements_file: requirements.txt
@@ -70,7 +70,7 @@ deployments:
     pull:
       - prefect.deployments.steps.git_clone:
           id: clone-step
-          repository: https://github.com/CBIIT/Prefect_demo.git
+          repository: https://github.com/akmukherjee/Prefect_demo-akm.git
           branch: file_copy_demo
       - prefect.deployments.steps.pip_install_requirements:
           requirements_file: requirements.txt
