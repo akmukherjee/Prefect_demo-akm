@@ -33,7 +33,7 @@ deployments:
 
     # pull action to overwrite from file pull action
     pull:
-      - prefect.deployments.steps.git_clone_project:
+      - prefect.deployments.steps.git_clone:
           id: clone-step
           repository: https://github.com/CBIIT/Prefect_demo.git
           branch: file_copy_demo
