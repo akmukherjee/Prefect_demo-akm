@@ -48,7 +48,7 @@ deployments:
       work_queue_name: null
       job_variables: {}
 
-  - name: file-copy-s3
+  - name: file-copy-s3-akm
     version: null
     tags: ["Training"]
     description: null
