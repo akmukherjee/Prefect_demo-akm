@@ -65,7 +65,8 @@ deployments:
 
     # flow-specific parameters
     parameters:
-
+      source_s3_uri: "s3://prefect-training-bucket/qiongl/source_folder/test_file.txt"
+      dst_s3_bucket_folder: "s3://prefect-training-bucket/qiongl/dst_folder/subfolder/"
     # pull action to overwrite from file pull action
     pull:
       - prefect.deployments.steps.git_clone:
