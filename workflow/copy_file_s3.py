@@ -1,6 +1,7 @@
 from prefect import task, flow
 from src.utils import copy_object_parameter, copy_file_flow, set_s3_session_client
 
+
 @flow(
     name="Copy an object in S3",
     log_prints=True,
