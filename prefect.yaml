@@ -80,6 +80,6 @@ deployments:
 
     # infra-specific fields
     work_pool:
-      name: fnl-bento-8gb-prefect-2.20.3-python3.9
+      name: akm-pool
       work_queue_name: null
       job_variables: {}
